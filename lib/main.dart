@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_s1/class_horizental_card.dart';
 import 'package:flutter_application_s1/home_page.dart';
+import 'package:flutter_application_s1/page_19_collection.dart';
 import 'package:flutter_application_s1/page_30_natificattion.dart';
 import 'package:flutter_application_s1/page_13_categories.dart';
 import 'package:flutter_application_s1/page_14_catigoreis_sub_details.dart';
@@ -33,9 +34,10 @@ class MyApp extends StatelessWidget {
         "page_9": (context) => Page_9(),
         "page_13": (context) => Page_13(),
         "page_30": (context) => Page_30(),
+        "page_19": (context) => Page_19(),
         "page_14": (context) => CatSubDet(),
       },
-      home: Page_30(),
+      home: Page_19(),
     );
   }
 }
