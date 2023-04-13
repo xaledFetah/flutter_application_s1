@@ -10,11 +10,11 @@ class Page_13 extends StatefulWidget {
 }
 
 final List _test = [
-  ['item title', 'item details', 'assets/images/1.svg'],
-  ['item title 2', 'item details 2', 'assets/images/2.svg'],
-  ['item title 3', 'item details 3', 'assets/images/3.svg'],
-  ['item title 4', 'item details 4', 'assets/images/4.svg'],
-  ['item title 5', 'item details 5', 'assets/images/5.svg'],
+  ['item title', 'item details', 'assets/images/f2.png'],
+  ['item title 2', 'item details 2', 'assets/images/f3.png'],
+  ['item title 3', 'item details 3', 'assets/images/f4.png'],
+  ['item title 4', 'item details 4', 'assets/images/f5.png'],
+  ['item title 5', 'item details 5', 'assets/images/f6.png'],
 ];
 
 class _Page_13State extends State<Page_13> {
@@ -61,7 +61,7 @@ class _Page_13State extends State<Page_13> {
                               decoration: BoxDecoration(
                                   color: Colors.grey[200],
                                   borderRadius: BorderRadius.circular(12)),
-                              child: SvgPicture.asset(_test[index][2]),
+                              child: Image.asset(_test[index][2]),
                             ),
                           ),
                           // 2 title and subtitle expanded

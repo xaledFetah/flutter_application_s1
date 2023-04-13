@@ -6,11 +6,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 class CardsH extends StatelessWidget {
   final List cardContent = [
     // [imageName , productName , price]
-    ['assets/images/6.svg', 'Sandalya Yeni 1', '\$250'],
-    ['assets/images/2.svg', 'Sandalya Yeni 2', '\$266'],
-    ['assets/images/3.svg', 'Sandalya Yeni 3', '\$223'],
-    ['assets/images/4.svg', 'Sandalya Yeni 4', '\$299'],
-    ['assets/images/5.svg', 'Sandalya Yeni 5', '\$270'],
+    ['assets/images/f1.png', 'Sandalya Yeni 1', '\$250'],
+    ['assets/images/f2.png', 'Sandalya Yeni 2', '\$266'],
+    ['assets/images/f4.png', 'Sandalya Yeni 3', '\$223'],
+    ['assets/images/f5.png', 'Sandalya Yeni 4', '\$299'],
+    ['assets/images/f7.png', 'Sandalya Yeni 5', '\$270'],
   ];
   CardsH({super.key});
 

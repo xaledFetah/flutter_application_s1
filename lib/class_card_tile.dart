@@ -58,7 +58,7 @@ class _CardTileState extends State<CardTile> {
                   // svg container
                   Container(
                     padding: EdgeInsets.all(20),
-                    child: SvgPicture.asset(
+                    child: Image.asset(
                       widget.imageName,
                       fit: BoxFit.fill,
                     ),
