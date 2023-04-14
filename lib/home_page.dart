@@ -60,6 +60,16 @@ class Home_p extends StatelessWidget {
               child: Text("Page_30"),
             ),
           ),
+          Container(
+            margin: EdgeInsets.all(8),
+            child: MaterialButton(
+              color: Colors.red[50],
+              onPressed: () {
+                Navigator.pushNamed(context, "page_23");
+              },
+              child: Text("Page_23"),
+            ),
+          ),
         ],
       ),
     );
