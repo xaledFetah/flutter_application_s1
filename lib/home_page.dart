@@ -63,7 +63,7 @@ class Home_p extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(8),
             child: MaterialButton(
-              color: Colors.red[50],
+              color: Colors.teal[50],
               onPressed: () {
                 Navigator.pushNamed(context, "page_23");
               },

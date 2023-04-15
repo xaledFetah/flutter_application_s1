@@ -1,8 +1,8 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
-class Catig_Title extends StatelessWidget {
-  Catig_Title({super.key, required this.title_catigories});
+class CatigTitle extends StatelessWidget {
+  CatigTitle({super.key, required this.title_catigories});
   final String title_catigories;
   @override
   Widget build(BuildContext context) {

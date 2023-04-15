@@ -1,6 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_s1/class_card_tile.dart';
+import 'package:flutter_application_s1/classCardTile.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Test_TabbarvieW extends StatelessWidget {

@@ -2,7 +2,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_s1/class_app_row.dart';
+import 'package:flutter_application_s1/classAppRow.dart';
 import 'package:flutter_application_s1/class_catigoreis_title.dart';
 import 'package:flutter_application_s1/class_horizental_card.dart';
 
@@ -169,11 +169,11 @@ class _Page_9State extends State<Page_9> {
           ),
           // row tow text title
           // HorzCards(id: [0], price: price, imagec: imagec, title: title)
-          Catig_Title(
+          CatigTitle(
             title_catigories: 'New Arrivals',
           ),
           Container(height: 280, child: CardsH()),
-          Catig_Title(
+          CatigTitle(
             title_catigories: 'top Trends',
           ),
           Container(height: 280, child: CardsH()),
