@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         "page_30": (context) => Page_30(),
         "page_14": (context) => CatSubDet(),
       },
-      home: eXpan(),
+      home: Home_p(),
     );
   }
 }
